@@ -42,16 +42,23 @@ The objective is to investigate the relationships between the physicochemical pr
 
 ##  Project Structure
 
-```text
 wine-quality-analysis/
 │
 ├── data/
+│   └── winequality-red.csv
+│
 ├── notebooks/
+│   └── wine_quality_analysis.ipynb
+│
+├── src/
+│   ├── data_loader.py
+│   ├── statistics.py
+│   └── visualization.py
+│
 ├── images/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
 
 ---
 
@@ -60,7 +67,7 @@ wine-quality-analysis/
 Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/wine-quality-analysis.git
+git clone https://github.com/loukasNtasios/wine-quality-analysis.git
 ```
 
 Install the required packages

@@ -6,7 +6,7 @@ A machine learning project that classifies handwritten digits from the MNIST dat
 
 
 
-##  Overview
+###  Overview
 
 This project transforms the classic MNIST digit classification problem into a binary classification task. Instead of predicting the exact digit (0-9), the model determines whether a digit is even or odd. This simplification allows for:
 
@@ -34,7 +34,7 @@ Precision	 0.973
 Recall	     0.971
 F1-Score	 0.972
 
-##  Features
+###  Features
 
 - **Data Loading**: Automatic download and preprocessing of MNIST dataset
 - **Binary Classification**: Converts 10-class problem to 2-class (even/odd)
@@ -45,7 +45,7 @@ F1-Score	 0.972
 - **Error Analysis**: Identification of false positives and negatives
 - **Reproducibility**: Fixed random seed for consistent results
 
-##  Technologies Used
+###  Technologies Used
 
 | Category | Technologies |
 |----------|-------------|
@@ -57,12 +57,12 @@ F1-Score	 0.972
 
 ### Key Libraries
 ```python
-- scikit-learn==1.0.0+
-- numpy==1.21.0+
-- pandas==1.3.0+
-- matplotlib==3.4.0+
-- seaborn==0.11.0+
+- scikit-learn
+- numpy
+- pandas
+- matplotlib
+- seaborn
 
-##  Author
+### Author
 
 Loukas Ntasios
