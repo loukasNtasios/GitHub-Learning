@@ -18,21 +18,26 @@ This project transforms the classic MNIST digit classification problem into a bi
 ### Problem Statement
 > Given a 28x28 grayscale image of a handwritten digit, predict whether the digit is **even** (0, 2, 4, 6, 8) or **odd** (1, 3, 5, 7, 9).
 
+Training set size: 59500
+Test set size: 10500
+
 ### Key Findings
-- True Negatives: 4,835 odd digits correctly classified as odd
+Confusion Matrix on Test Set:
+ [[4630  532]
+ [ 479 4859]]
 
-- True Positives: 4,872 even digits correctly classified as even
-
-- False Positives: 143 odd digits misclassified as even
-
-- False Negatives: 150 even digits misclassified as odd
+Prediction Types and Quantities on Test Set:
+- True Negatives (Even classified as Even): 4630
+- False Positives (Odd classified as Even): 532
+- False Negatives (Even classified as Odd): 479
+-True Positives (Odd classified as Odd): 4859
 
 ### Model Performance
 Metric	     Score
-Accuracy	 0.972
-Precision	 0.973
-Recall	     0.971
-F1-Score	 0.972
+Accuracy	 0.904
+Precision	 0.901
+Recall	     0.910
+F1-Score	 0.906
 
 ###  Features
 
@@ -62,7 +67,8 @@ F1-Score	 0.972
 - pandas
 - matplotlib
 - seaborn
-
+```
+---
 ### Author
 
 Loukas Ntasios
