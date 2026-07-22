@@ -119,7 +119,7 @@ Key findings:
 
 ---
 
-## 🛠 Technologies
+##  Technologies
 
 - Python
 - TensorFlow
@@ -139,7 +139,6 @@ fashion-mnist-cnn-analysis/
 │
 ├── notebooks/
 │   └── Fashion_mnist.ipynb
-│
 ├── README.md
 ├── requirements.txt
 └── .gitignore
@@ -152,7 +151,7 @@ fashion-mnist-cnn-analysis/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fashion-mnist-cnn-analysis.git
+git clone https://github.com/loukasNtasios/fashion-mnist-cnn-analysis.git
 ```
 
 Install dependencies:
